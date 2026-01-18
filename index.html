@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="inter-font">
-    <header>
-        <nav>
+    <header class="container">
+        <nav class="navbar">
             <div class="logo">
                 <img src="./assets/logo-navbar.png" alt="">
             </div>
-            <ul class="nav-text">
+            <ul class="nav-items">
                 <li><a href="">Features</a></li>
                 <li><a href="">How It Works</a></li>
                 <li><a href="">Why It's Different</a></li>
@@ -24,6 +31,137 @@
                 <button class="btn">Get Early Access</button>
             </div>
         </nav>
+
+        <section id="banner">
+            <div class="banner-content">
+                <h2>Early Access Now Open</h2>
+                <h1 class="heading">Structured Thinking,<span>Not Just Note-Taking.</span></h1>
+                <p>A private space to store notes, links, and learning summaries — designed to
+                    help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+
+                <div class="btn-container">
+                    <button class="btn1">Start Building Your Vault<img src="./assets/ArrowRight.png" alt=""></button>
+                    <button class="btn2"><i class="fa-solid fa-play"></i> See How It Works</button>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <section class="note-content">
+                <div>
+                    <div class="header-container">
+                        <h1>Notes don't fail, Structure Does</h1>
+                        <p>You're not bad at learning. Your tools just weren't built for how knowledge actually works.
+                        </p>
+                    </div>
+                    <div class="note-box">
+                        <div class="notes-cards">
+                            <div class="card1">
+                                <div class="img">
+                                    <img src="./assets/Vector.png" alt="">
+
+                                </div>
+                                <div class="card-content">
+                                    <h1>Scattered Notes</h1>
+                                    <p>Your ideas live in 10 different apps, none of them connected.</p>
+                                </div>
+                            </div>
+
+                            <div class="card2">
+                                <div class="img">
+                                    <i><img src="./assets/Bookmarks.png" alt=""></i>
+                                </div>
+                                <div class="card-content">
+                                    <h1>Bookmark overload</h1>
+                                    <p>Hundreds of saved links you'll never revisit or remember.</p>
+                                </div>
+                            </div>
+
+                            <div class="card3">
+                                <div class="img">
+                                    <i><img src="./assets/Brain.png" alt=""></i>
+                                </div>
+                                <div class="card-content">
+                                    <h1>No idea connections</h1>
+                                    <p>Insights stay isolated, never building into bigger understanding.</p>
+                                </div>
+                            </div>
+
+                            <div class="card4">
+                                <div class="img">
+                                    <i><img src="./assets/Info.png" alt=""></i>
+                                </div>
+                                <div class="card-content">
+                                    <h1>Forgetting what you learned</h1>
+                                    <p>Forgetting what you learned</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="solution">
+                <div class="container solution-grid">
+
+                    <div class="solution-visual">
+                        <img src="./assets/knowledge.png" alt="">
+                    </div>
+
+                    <div class="solution-content">
+                        <small class="label">THE SOLUTION</small>
+                        <h2>Your Second Brain,<br>Structured By Design.</h2>
+                        <p>
+                            Personal Knowledge Vault isn't another note-taking app. z It's a thinking environment where
+                            every note, link, and summary becomes part of an interconnected web of understanding.
+                        </p>
+
+                        <ul class="feature-list">
+                            <li><img src="./assets/CheckCircle.png" alt="">Capture ideas with structure from day one
+                            </li>
+                            <li><img src="./assets/CheckCircle.png" alt="">Connect related concepts automatically</li>
+                            <li><img src="./assets/CheckCircle.png" alt="">Build lasting knowledge through reflection
+                            </li>
+                            <li><img src="./assets/CheckCircle.png" alt="">Find anything instantly with semantic search
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta">
+                <div class="cta-box">
+                    <h2>Ready To Think More Clearly?</h2>
+                    <p>
+                        Join thousands of learners building their personal knowledge vault.
+                        Start free, no credit card required.
+                    </p>
+
+                    <button class="btn4">Get Early Access<img src="./assets/ArrowRight.png" alt=""></button>
+                    <small>Free during early access • No credit card needed</small>
+                </div>
+            </section>
+        </main>
     </header>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="./assets/logo-footer.png" alt="">
+            </div>
+
+            <div class="socials">
+                <h2>Socials Links</h2>
+                <a href=""><i class="fa-solid fa-x"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+
+        <p class="copyright">
+            © 2026 Personal Knowledge Vault. All rights reserved.
+        </p>
+    </footer>
 </body>
+
 </html>
